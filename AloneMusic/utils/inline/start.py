@@ -11,6 +11,7 @@ from pyrogram.types import InlineKeyboardButton
 
 import config
 from AloneMusic import app
+from config import BANNED_USERS, OWNER_ID
 
 
 def start_panel(_):
